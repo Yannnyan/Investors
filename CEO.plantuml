@@ -1,0 +1,21 @@
+@startuml CEO
+
+
+class CEO{
+    double _balance
+    double _equety
+
+    Report getReports()
+    void sendDataToAnalist()
+
+}
+class Report{
+    void approveReport()
+    void declineReport()
+}
+CEO <-> Report
+
+
+@enduml
+
+
