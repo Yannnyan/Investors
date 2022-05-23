@@ -1,0 +1,22 @@
+@startuml
+actor CEO1
+actor ANALYST1
+actor CONNECTOR1
+rectangle group1
+CEO1 -up-> group1
+ANALYST1 -up-> group1
+CONNECTOR1 -up-> group1
+actor CEO2
+actor ANALYST2
+actor CONNECTOR2
+rectangle group2
+CEO2 -up-> group2
+ANALYST2 -up-> group2
+CONNECTOR2 -up-> group2
+rectangle SERVER
+group1 -up-> SERVER
+group2 -up-> SERVER
+SERVER -down-> group1
+SERVER -down-> group2
+
+@enduml

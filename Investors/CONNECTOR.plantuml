@@ -1,0 +1,15 @@
+@startuml CONNECTOR
+
+class CONNECTOR
+{
+    List WorldCompanies
+    List AlliedCompanies
+    
+    void offerConnection()
+    void askForMoney()
+    
+
+
+}
+
+@enduml
