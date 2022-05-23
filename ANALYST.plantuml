@@ -3,7 +3,6 @@ class ANALYST
 {
     List Stocks
     List CEO_Orders
-
     void AskCEOForDeal()
     void invest()
     Report createReport()
